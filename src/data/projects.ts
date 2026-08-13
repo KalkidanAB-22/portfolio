@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "TaskFlow SaaS is a full-stack project management platform built around real team workflows. Users can register and authenticate, create projects, manage project details, add members, create and assign tasks, manage task priorities and statuses, and collaborate through a responsive dashboard.",
 
     challenges:
-      "The main engineering challenges were implementing JWT authentication, protecting frontend routes, connecting React with the FastAPI backend, designing relational database models between users, projects, members, and tasks, and deploying a full-stack application.",
+      "The main engineering challenges involved building a secure authentication system with JWT, protecting application routes, connecting a React frontend with a FastAPI backend, designing relational database structures for users, projects, members, and tasks, and creating collaborative workflows such as project membership and task assignment. I also faced real production challenges including database schema changes, API debugging, environment configuration, CORS issues, and deploying a full-stack application to the cloud.",
 
     features: [
       "User registration and authentication",
