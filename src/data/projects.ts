@@ -84,10 +84,10 @@ export const projects: Project[] = [
       "A full-stack ecommerce platform with product management, shopping cart, orders, inventory, and payment workflows.",
 
     longDescription:
-      "Vendor-Cart is a full-stack ecommerce application designed around a realistic online shopping experience. Customers can browse products, manage their cart, complete checkout, and place orders, while administrators can manage products, inventory, and order workflows.",
+      "Vendor-Cart is a full-stack ecommerce application designed around a realistic online shopping experience. Customers can browse products, search the catalog, manage their cart, complete checkout, and place orders. Administrators can manage products, inventory, and order workflows through dedicated management functionality.",
 
     challenges:
-      "The main challenges were designing ecommerce database relationships between users, products, carts, orders, payments, and inventory while maintaining a consistent workflow between frontend and backend services.",
+      "The main engineering challenges were designing and connecting the ecommerce workflow across users, products, carts, orders, payments, and inventory. Another major challenge was production deployment. Getting the Express and PostgreSQL backend running reliably in a serverless environment required troubleshooting routing, CORS configuration, environment variables, database connectivity, and Vercel's deployment structure. Working through these issues helped me understand the difference between getting an application working locally and preparing it for a real production environment.",
 
     features: [
       "Customer registration and authentication",
@@ -99,16 +99,17 @@ export const projects: Project[] = [
       "Product management",
       "Inventory management",
       "Admin functionality",
-      "Payment workflow",
+      "Stripe payment integration",
     ],
 
     decisions: [
       "React for reusable frontend components",
-      "Node.js and Express for backend APIs",
+      "Node.js and Express for backend API development",
       "PostgreSQL for structured ecommerce data",
       "JWT authentication and authorization",
       "REST API architecture",
-      "Stripe payment integration",
+      "Stripe for payment processing",
+      "Cloudinary for product image management",
     ],
 
     stack: [
@@ -119,9 +120,12 @@ export const projects: Project[] = [
       "PostgreSQL",
       "JWT",
       "Stripe",
+      "Cloudinary",
     ],
 
-    githubUrl: "https://github.com/KalkidanAB-22",
+    githubUrl: "https://github.com/KalkidanAB-22/vendor-cart-ecommerce",
+
+    liveUrl: "https://vendor-cart-app.vercel.app",
 
     featured: true,
 

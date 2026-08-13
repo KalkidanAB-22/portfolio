@@ -412,25 +412,7 @@ export function ProjectDetail() {
 
       {/* Project Links */}
       <div className="mt-14 flex flex-wrap gap-4">
-        <a
-          href={project.githubUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="
-            rounded-xl
-            bg-green-500
-            px-6
-            py-3
-            font-semibold
-            text-black
-            transition
-            hover:bg-green-400
-            active:scale-95
-          "
-        >
-          View Source Code ↗
-        </a>
-
+        {/* Live Demo */}
         {project.liveUrl && (
           <a
             href={project.liveUrl}
@@ -438,22 +420,42 @@ export function ProjectDetail() {
             rel="noreferrer"
             className="
               rounded-xl
-              border
-              border-white/15
-              bg-white/5
+              bg-green-500
               px-6
               py-3
               font-semibold
-              text-white
+              text-black
               transition
-              hover:border-white/30
-              hover:bg-white/10
+              hover:bg-green-400
               active:scale-95
             "
           >
             Live Demo ↗
           </a>
         )}
+
+        {/* GitHub */}
+        <a
+          href={project.githubUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="
+            rounded-xl
+            border
+            border-white/15
+            bg-white/5
+            px-6
+            py-3
+            font-semibold
+            text-white
+            transition
+            hover:border-white/30
+            hover:bg-white/10
+            active:scale-95
+          "
+        >
+          View Source Code ↗
+        </a>
       </div>
     </section>
   );

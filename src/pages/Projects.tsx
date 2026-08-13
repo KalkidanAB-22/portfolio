@@ -22,27 +22,27 @@ export function Projects() {
       />
 
       {/* Header */}
-
       <div className="max-w-3xl">
         <p
           className="
-          text-sm
-          uppercase
-          tracking-[0.3em]
-          text-green-400
-        "
+            text-sm
+            uppercase
+            tracking-[0.3em]
+            text-green-400
+          "
         >
           Projects
         </p>
 
         <h1
           className="
-          mt-5
-          text-4xl
-          font-bold
-          tracking-tight
-          sm:text-6xl
-        "
+            mt-5
+            text-4xl
+            font-bold
+            tracking-tight
+            text-white
+            sm:text-6xl
+          "
         >
           Applications I have
           <span className="text-green-400"> built.</span>
@@ -50,11 +50,11 @@ export function Projects() {
 
         <p
           className="
-          mt-6
-          text-lg
-          leading-relaxed
-          text-neutral-400
-        "
+            mt-6
+            text-lg
+            leading-relaxed
+            text-neutral-400
+          "
         >
           A collection of full-stack applications focused on real-world
           problems, clean architecture, and modern web development practices.
@@ -62,14 +62,13 @@ export function Projects() {
       </div>
 
       {/* Projects */}
-
       <div
         className="
-        mt-16
-        grid
-        gap-10
-        lg:grid-cols-2
-      "
+          mt-16
+          grid
+          gap-10
+          lg:grid-cols-2
+        "
       >
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
