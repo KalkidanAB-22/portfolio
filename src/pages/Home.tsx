@@ -141,35 +141,36 @@ export function Home() {
               </Link>
             </div>
 
-            {/* Technology stack */}
+            {/* What I Build */}
             <div className="mt-10">
               <p className="mb-3 text-xs uppercase tracking-[0.2em] text-neutral-600">
-                Technologies I work with
+                What I build
               </p>
 
               <div className="flex flex-wrap gap-2">
                 {[
-                  "React",
-                  "TypeScript",
-                  "Tailwind CSS",
-                  "FastAPI",
-                  "PostgreSQL",
+                  "Full-Stack Applications",
+                  "REST APIs",
+                  "Authentication Systems",
+                  "Database-Driven Platforms",
+                  "Payment Integrations",
+                  "Responsive Interfaces",
                 ].map((item) => (
                   <span
                     key={item}
                     className="
-                      rounded-full
-                      border
-                      border-white/10
-                      bg-white/[0.03]
-                      px-3.5
-                      py-1.5
-                      text-xs
-                      text-neutral-400
-                      transition
-                      hover:border-green-400/20
-                      hover:text-neutral-200
-                    "
+        rounded-full
+        border
+        border-white/10
+        bg-white/[0.03]
+        px-3.5
+        py-1.5
+        text-xs
+        text-neutral-400
+        transition
+        hover:border-green-400/20
+        hover:text-neutral-200
+      "
                   >
                     {item}
                   </span>
