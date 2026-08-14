@@ -10,7 +10,7 @@ This portfolio serves as a central place to explore my featured projects, unders
 
 ## 🌐 Live Website
 
-🔗 Portfolio: [https://portfolio-wheat-tau-8kapd0ixpn.vercel.app/]
+🔗 Portfolio: [https://portfolio-kalkidan-dev.vercel.app/]
 
 ---
 
